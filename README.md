@@ -1,48 +1,43 @@
 # Bharath Arsikere Chandrashekar
 
-QA Automation Architect focused on enterprise quality engineering, scalable automation strategy, and AI-first testing.
+QA Automation Architect with 15+ years in enterprise quality engineering across web, microservices, and regulated financial domains.
 
-I build demonstrable quality engineering assets around UI automation, contract validation, release governance, cloud validation, and business-critical test strategy.
+## Start Here
+If you review only three repositories, review these:
 
-## What I Do
-- Design enterprise-grade test automation frameworks for web, API, and mobile systems.
-- Build quality gates that align engineering output with release confidence.
-- Validate microservices, contracts, and data integrity in regulated domains.
-- Apply AI-driven approaches to increase coverage, reduce noise, and improve test intelligence.
+1. https://github.com/acbharath14/microservices-contract-and-integration-testing
+2. https://github.com/acbharath14/cicd-quality-gates-reference-implementation
+3. https://github.com/acbharath14/enterprise-qa-automation-blueprint
 
-## Featured Repositories
+## Skills To Repository Map
 
-### Enterprise QA Automation Blueprint
-Practical Playwright-based smoke automation against a local release-health application, showing how UI quality signals can be enforced and reported.
+| Skill from profile | Repository | What to check | Proof artifact |
+| --- | --- | --- | --- |
+| Contract testing and integration risk control | microservices-contract-and-integration-testing | Multi-service orchestration scenarios: happy-path, timeout-fallback, schema-drift | docs/evidence-suite.md |
+| Release governance and CI/CD quality gates | cicd-quality-gates-reference-implementation | PASS, WARN, BLOCK decisions from metrics plus integration report input | docs/evidence-integration.md |
+| Enterprise automation framework thinking | enterprise-qa-automation-blueprint | Playwright smoke flow tied to release-health UI signals | docs/evidence.md |
 
-Repository: https://github.com/acbharath14/enterprise-qa-automation-blueprint
+## 90-Second Review Flow For Hiring Managers
 
-### Microservices Contract and Integration Testing
-Runnable provider-consumer contract validation with service virtualization, built to demonstrate API quality engineering patterns without external dependencies.
+1. Open microservices-contract-and-integration-testing and read README plus docs/evidence-suite.md.
+2. Open cicd-quality-gates-reference-implementation and read docs/evidence-integration.md.
+3. Open enterprise-qa-automation-blueprint and read docs/evidence.md.
 
-Repository: https://github.com/acbharath14/microservices-contract-and-integration-testing
-
-### CI/CD Quality Gates Reference Implementation
-Executable quality gate evaluator that converts release thresholds into auditable pass or fail decisions.
-
-Repository: https://github.com/acbharath14/cicd-quality-gates-reference-implementation
+This sequence shows how integration risk signals flow into release decisions.
 
 ## Core Strengths
+
 - QA architecture and automation strategy
+- Contract testing, service virtualization, and integration validation
+- CI/CD quality gates and release decision governance
 - Playwright, Selenium, Cypress, Cucumber, Appium, Robot Framework
-- API and integration testing with contract validation
-- CI/CD quality gates and release governance
-- AWS-focused testing strategy and validation
-- AI-first quality engineering
-- Banking, lending, mortgage, and regulated platform quality
+- AWS-aware quality engineering in regulated BFSI domains
+- AI-first quality engineering mindset
 
-## Current Focus
-- Expanding runnable portfolio repositories with real evidence, not scaffolding
-- Building practical AI-assisted QA utilities
-- Demonstrating architecture-level thinking through executable examples
+## Portfolio Scope
 
-## Repository Philosophy
-I prefer repositories that prove execution, decision-making, and business impact. Each featured project is designed to show runnable behavior, test evidence, and engineering intent clearly enough for technical reviewers and hiring managers.
+To keep the profile focused, these three repositories are the primary capability signal. Other repositories are secondary and not part of the core review path.
 
 ## Connect
+
 - GitHub: https://github.com/acbharath14
