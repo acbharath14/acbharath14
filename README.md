@@ -1,6 +1,6 @@
 # Bharath Arsikere Chandrashekar
 
-QA Automation Architect with 15+ years in enterprise quality engineering across web, microservices, and regulated financial domains.
+QA Automation Architect with 15+ years in enterprise quality engineering across web, microservices, mobile apps development in regulated financial domains.
 
 ## Start Here
 If you review only three repositories, review these:
