@@ -13,7 +13,7 @@ Read them in this order — they show how integration risk signals flow into rel
 
 ## AI Quality Engineering
 
-Beyond traditional test automation, I build evaluation harnesses for AI systems:
+Beyond traditional test automation, I built an evaluation harness to compare models with evidence:
 
 - **[llm-eval-harness](https://github.com/acbharath14/llm-eval-harness)** — 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. Answers "which model should we ship?" with evidence.
 - **[doc-extract-eval](https://github.com/acbharath14/doc-extract-eval)** — Compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then pipes winners through an LLM for structured business summaries.
