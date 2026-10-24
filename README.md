@@ -9,12 +9,19 @@ If you review only three repositories, review these:
 2. https://github.com/acbharath14/cicd-quality-gates-reference-implementation
 3. https://github.com/acbharath14/enterprise-qa-automation-blueprint
 
+Read them in this order — they show how integration risk signals flow into release decisions.
+
 ## AI Quality Engineering
 
 Beyond traditional test automation, I build evaluation harnesses for AI systems:
 
 - **[llm-eval-harness](https://github.com/acbharath14/llm-eval-harness)** — 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. Answers "which model should we ship?" with evidence.
 - **[doc-extract-eval](https://github.com/acbharath14/doc-extract-eval)** — Compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then pipes winners through an LLM for structured business summaries.
+
+And I build AI-generated testing with local models — no cloud model, no test run leaves your machine:
+
+- **[ai-playwright-framework](https://github.com/acbharath14/ai-playwright-framework)** — Playwright + local Ollama: drafts specs from ARIA snapshots, advises and audits locators, and applies fixes only on approval, with an HTML failure report on red runs.
+- **[ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo)** — Local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
 
 ## Skills To Repository Map
 
@@ -25,30 +32,21 @@ Beyond traditional test automation, I build evaluation harnesses for AI systems:
 | Enterprise automation framework thinking | enterprise-qa-automation-blueprint | Playwright smoke flow tied to release-health UI signals | docs/evidence.md |
 | LLM evaluation and model selection | llm-eval-harness | Golden dataset, judge agreement, drift detection, side-by-side model comparison | reports/ |
 | Document AI evaluation | doc-extract-eval | Extractor comparison with ground-truth F1 scoring | reports/ |
-
-## 90-Second Review Flow For Hiring Managers
-
-1. Open microservices-contract-and-integration-testing and read README plus docs/evidence-suite.md.
-2. Open cicd-quality-gates-reference-implementation and read docs/evidence-integration.md.
-3. Open enterprise-qa-automation-blueprint and read docs/evidence.md.
-
-This sequence shows how integration risk signals flow into release decisions. For AI evaluation work, start with llm-eval-harness.
+| AI-generated end-to-end tests (Playwright + local LLM) | ai-playwright-framework | ARIA snapshot → drafted specs, locator advice and audit, approval-gated fixes, HTML failure report | tests/generated/ |
+| AI-generated unit tests (local LLM) | ollama-junit-demo | Ollama drafts JUnit 5 tests for a Java app, human review before promotion | ai-generated/ |
 
 ## Core Strengths
 
 - QA architecture and automation strategy
 - Contract testing (Pact), service virtualization (WireMock), and integration validation
-- CI/CD quality gates and release decision governance
+- CI/CD pipelines, quality gates, and release decision governance
 - LLM evaluation: golden datasets, LLM-as-judge, drift detection
+- AI-generated test creation with local models (Playwright, JUnit), human-reviewed before adoption
 - Playwright, Selenium, REST Assured, Java, Python
 - AWS-aware quality engineering in regulated BFSI domains
 - AI-first quality engineering mindset
 
-## Portfolio Scope
-
-To keep the profile focused, the repositories above are the primary capability signal. Other repositories are secondary and not part of the core review path.
-
 ## Connect
 
 - GitHub: https://github.com/acbharath14
-- LinkedIn: <!-- add your LinkedIn URL -->
+- LinkedIn: https://www.linkedin.com/in/acbharath14/
