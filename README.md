@@ -9,9 +9,11 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 - CI/CD pipelines, quality gates, and release decision governance
 - LLM evaluation: golden datasets, LLM-as-judge, drift detection
 - AI-generated test creation with local models (Playwright, JUnit), human-reviewed before adoption
-- Playwright, Selenium, REST Assured, Java, Python
+- Playwright, Selenium, REST Assured, TypeScript, Java, Python
 - AWS-aware quality engineering in regulated BFSI domains
-- AI-first quality engineering mindset
+- Performance testing (JMeter)
+- Mobile test automation (Appium, Sauce Labs, LambdaTest)
+- Mentoring junior SDETs on automation best practices and code quality
 
 ## Start Here
 If you review only three repositories, review these:
