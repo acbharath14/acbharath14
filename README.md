@@ -2,6 +2,17 @@
 
 QA Automation Architect with 15+ years in enterprise quality engineering across web, microservices, mobile apps development in regulated financial domains.
 
+## Core Strengths
+
+- QA architecture and automation strategy
+- Contract testing (Pact), service virtualization (WireMock), and integration validation
+- CI/CD pipelines, quality gates, and release decision governance
+- LLM evaluation: golden datasets, LLM-as-judge, drift detection
+- AI-generated test creation with local models (Playwright, JUnit), human-reviewed before adoption
+- Playwright, Selenium, REST Assured, Java, Python
+- AWS-aware quality engineering in regulated BFSI domains
+- AI-first quality engineering mindset
+
 ## Start Here
 If you review only three repositories, review these:
 
@@ -34,17 +45,6 @@ And I build AI-generated testing with local models — no cloud model, no test r
 | Document AI evaluation | doc-extract-eval | Extractor comparison with ground-truth F1 scoring | reports/ |
 | AI-generated end-to-end tests (Playwright + local LLM) | ai-playwright-framework | ARIA snapshot → drafted specs, locator advice and audit, approval-gated fixes, HTML failure report | tests/generated/ |
 | AI-generated unit tests (local LLM) | ollama-junit-demo | Ollama drafts JUnit 5 tests for a Java app, human review before promotion | ai-generated/ |
-
-## Core Strengths
-
-- QA architecture and automation strategy
-- Contract testing (Pact), service virtualization (WireMock), and integration validation
-- CI/CD pipelines, quality gates, and release decision governance
-- LLM evaluation: golden datasets, LLM-as-judge, drift detection
-- AI-generated test creation with local models (Playwright, JUnit), human-reviewed before adoption
-- Playwright, Selenium, REST Assured, Java, Python
-- AWS-aware quality engineering in regulated BFSI domains
-- AI-first quality engineering mindset
 
 ## Connect
 
