@@ -4,16 +4,11 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 
 ## Core Strengths
 
-- QA architecture and automation strategy
-- Contract testing (Pact), service virtualization (WireMock), and integration validation
-- CI/CD pipelines, quality gates, and release decision governance
-- LLM evaluation: golden datasets, LLM-as-judge, drift detection
-- AI-generated test creation with local models (Playwright, JUnit), human-reviewed before adoption
-- Playwright, Selenium, REST Assured, TypeScript, Java, Python
-- AWS-aware quality engineering in regulated BFSI domains
-- Performance testing (JMeter)
-- Mobile test automation (Appium, Sauce Labs, LambdaTest)
-- Mentoring junior SDETs on automation best practices and code quality
+- **Quality architecture:** end-to-end automation strategy, CI/CD pipelines, quality gates, and release decisions grounded in test evidence
+- **API and integration testing:** contract testing (Pact), service virtualization (WireMock), integration validation, REST Assured
+- **AI-assisted quality:** LLM evaluation (golden datasets, LLM-as-judge, drift detection); AI-generated Playwright and JUnit tests from local models, human-reviewed before adoption
+- **Platforms and tools:** Playwright, Selenium, TypeScript, Java, Python; performance testing (JMeter); mobile automation (Appium, Sauce Labs, LambdaTest)
+- **Domain and team:** quality engineering for AWS environments in regulated financial services; mentoring junior SDETs on automation best practices and code quality
 
 ## Start Here
 If you review only three repositories, review these:
