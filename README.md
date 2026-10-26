@@ -17,7 +17,7 @@ If you review only three repositories, review these:
 2. https://github.com/acbharath14/cicd-quality-gates-reference-implementation
 3. https://github.com/acbharath14/enterprise-qa-automation-blueprint
 
-Read them in this order — they show how integration risk signals flow into release decisions.
+Read them in this order - they show how integration risk signals flow into release decisions.
 
 ## AI Quality Engineering
 
