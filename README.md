@@ -13,5 +13,4 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 
 ## Connect
 
-- GitHub: https://github.com/acbharath14
 - LinkedIn: https://www.linkedin.com/in/acbharath14/
