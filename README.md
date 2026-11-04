@@ -5,22 +5,22 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 ## Start Here
 If you review only five repositories, review these:
 
-1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework) — Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests. Jenkins pipeline green 20/20.
-2. [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant) — enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, Streamlit chat UI, MCP server, retrieval evals. No API keys needed.
-3. [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team) — a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
-4. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint) — enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security. CI green, 419 passed.
-5. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework) — Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports. Android 15/15 green.
+1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework): Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests. Jenkins pipeline green 20/20.
+2. [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, Streamlit chat UI, MCP server, retrieval evals. No API keys needed.
+3. [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
+4. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security. CI green, 419 passed.
+5. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports. Android 15/15 green.
 
-Read them in this order — they show the range: a proven automation framework, an enterprise knowledge system, multi-agent AI engineering, a full enterprise QA blueprint, and native mobile automation.
+Read them in this order: they show the range: a proven automation framework, an enterprise knowledge system, multi-agent AI engineering, a full enterprise QA blueprint, and native mobile automation.
 
 ## AI Quality Engineering
 
-Beyond traditional test automation, I build evaluation harnesses and generate tests with local models — no cloud model, no test run leaves your machine:
+Beyond traditional test automation, I build evaluation harnesses and generate tests with local models. No cloud model, no test run leaves your machine:
 
-- [llm-eval-harness](https://github.com/acbharath14/llm-eval-harness) — 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. Answers "which model should we ship?" with evidence.
-- [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval) — compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then pipes winners through an LLM for structured business summaries.
-- [ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo) — local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
-- [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo) — typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities. Stdlib-only Python.
+- [llm-eval-harness](https://github.com/acbharath14/llm-eval-harness): 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. Answers "which model should we ship?" with evidence.
+- [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval): compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then pipes winners through an LLM for structured business summaries.
+- [ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo): local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
+- [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo): typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities. Stdlib-only Python.
 
 ## Skills To Repository Map
 
@@ -42,7 +42,7 @@ Beyond traditional test automation, I build evaluation harnesses and generate te
 
 - **Quality architecture:** end-to-end automation strategy, CI/CD pipelines, quality gates, and release decisions grounded in test evidence
 - **API and integration testing:** contract testing (Pact), service virtualization (WireMock), integration validation, REST Assured
-- **AI-assisted quality:** evaluating LLM systems with evidence — golden datasets, LLM-as-judge scoring, drift detection across runs; AI-drafted Playwright and JUnit tests from local models, promoted only after human review
+- **AI-assisted quality:** evaluating LLM systems with evidence: golden datasets, LLM-as-judge scoring, drift detection across runs; AI-drafted Playwright and JUnit tests from local models, promoted only after human review
 - **Platforms and tools:** Playwright, Selenium, Cucumber, TypeScript, Java, Python; performance testing (JMeter); mobile automation (Appium, Sauce Labs, LambdaTest)
 - **Domain and team:** quality engineering across banking, financial services, credit lending/payments, and mortgage-backed securities; hands-on mentoring of junior SDETs in automation practices and code quality
 
