@@ -6,7 +6,7 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 If you review only five repositories, review these:
 
 1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework): Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests. Jenkins pipeline green 20/20.
-2. [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, Streamlit chat UI, MCP server, retrieval evals. No API keys needed.
+2. [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, React chat UI, MCP server, retrieval evals. No API keys needed.
 3. [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
 4. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security. CI green, 419 passed.
 5. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports. Android 15/15 green.
