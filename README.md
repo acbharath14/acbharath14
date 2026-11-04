@@ -44,7 +44,7 @@ Beyond traditional test automation, I build evaluation harnesses and generate te
 - **API and integration testing:** contract testing (Pact), service virtualization (WireMock), integration validation, REST Assured
 - **AI-assisted quality:** evaluating LLM systems with evidence — golden datasets, LLM-as-judge scoring, drift detection across runs; AI-drafted Playwright and JUnit tests from local models, promoted only after human review
 - **Platforms and tools:** Playwright, Selenium, Cucumber, TypeScript, Java, Python; performance testing (JMeter); mobile automation (Appium, Sauce Labs, LambdaTest)
-- **Domain and team:** quality engineering for cloud based environments in regulated financial services; mentoring junior SDETs on automation best practices and code quality
+- **Domain and team:** quality engineering across banking, financial services, credit lending/payments, and mortgage-backed securities; hands-on mentoring of junior SDETs in automation practices and code quality
 
 ## Connect
 
