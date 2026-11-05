@@ -5,11 +5,11 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 ## Start Here
 If you review only five repositories, review these:
 
-1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework): Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests. Jenkins pipeline green 20/20.
+1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework): Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests, with all 20 passing on Jenkins.
 2. [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, React chat UI, MCP server, retrieval evals. No API keys needed.
 3. [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
-4. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security. CI green, 419 passed.
-5. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports. Android 15/15 green.
+4. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security, with 419 tests passing in CI.
+5. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports, with all 15 Android tests passing.
 
 Read them in this order: they show the range: a proven automation framework, an enterprise knowledge system, multi-agent AI engineering, a full enterprise QA blueprint, and native mobile automation.
 
@@ -26,9 +26,9 @@ Beyond traditional test automation, I build evaluation harnesses and generate te
 
 | Skill from profile | Repository | What to check | Proof artifact |
 | --- | --- | --- | --- |
-| E2E web automation frameworks | selenium-e2e-automation-framework | Selenium 4 Page Objects, 15 UI journeys + 5 API tests, Jenkins CI | Jenkins pipeline green 20/20 + Allure report |
-| Native mobile test automation | appium-e2e-automation-framework | Appium Page Objects, 15 tests on Android emulator + iOS simulator | Android 15/15 green; iOS 9 passed / 6 intentionally skipped |
-| Enterprise QA strategy and test architecture | enterprise-qa-automation-blueprint | Playwright BDD, DB validation, Pact contract tests, k6 performance, ZAP security | CI green, 419 passed |
+| E2E web automation frameworks | selenium-e2e-automation-framework | Selenium 4 Page Objects, 15 UI journeys + 5 API tests, Jenkins CI | All 20 tests passing on Jenkins + Allure report |
+| Native mobile test automation | appium-e2e-automation-framework | Appium Page Objects, 15 tests on Android emulator + iOS simulator | All 15 Android tests passing; iOS 9 passed, 6 intentionally skipped |
+| Enterprise QA strategy and test architecture | enterprise-qa-automation-blueprint | Playwright BDD, DB validation, Pact contract tests, k6 performance, ZAP security | 419 tests passing in CI |
 | Cypress E2E automation | cypress-e2e-automation-framework | Page Objects, fixtures, custom commands, UI + API specs | mochawesome-report/ + allure-results/ per run (CI template in ci/) |
 | Contract testing and integration risk control | microservices-contract-and-integration-testing | Multi-service orchestration scenarios: happy-path, timeout-fallback, schema-drift. Pact consumer + provider verification, OpenAPI validation, WireMock virtualization | docs/evidence-suite.md |
 | Release governance and CI/CD quality gates | cicd-quality-gates-reference-implementation | PASS, WARN, BLOCK decisions from metrics plus integration report input | docs/evidence-integration.md |
