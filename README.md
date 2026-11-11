@@ -22,7 +22,7 @@ Beyond traditional test automation, this work covers AI systems, evaluation harn
 - [llm-eval-harness](https://github.com/acbharath14/llm-eval-harness): 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. It answers which model to ship, with evidence.
 - [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval): compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then sends the winning extraction through an LLM for structured business summaries.
 - [ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo): local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
-- [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo): typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities. Stdlib-only Python.
+- [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo): typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities.
 
 ## Skills To Repository Map
 
