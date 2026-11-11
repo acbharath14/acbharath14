@@ -1,24 +1,26 @@
 # Bharath Arsikere Chandrashekar
 
-QA Automation Architect with 15+ years in enterprise quality engineering across web, microservices, mobile apps development in regulated financial domains.
+QA Automation Architect with 15+ years in enterprise quality engineering across web, microservices, and mobile app development in regulated financial domains.
 
 ## Start Here
 If you review only five repositories, review these:
 
 1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework): Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests, with all 20 passing on Jenkins.
-2. [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, React chat UI, MCP server, retrieval evals. No API keys needed.
-3. [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
-4. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security, with 419 tests passing in CI.
-5. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports, with all 15 Android tests passing.
+2. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security, with 419 tests passing in CI.
+3. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports, with all 15 Android tests passing.
+4. [karate-bdd-api-testing](https://github.com/acbharath14/karate-bdd-api-testing): Karate + Java 17 + JUnit 5: BDD API tests against the ReqRes API, 11 scenarios across 4 feature files.
+5. [cypress-e2e-automation-framework](https://github.com/acbharath14/cypress-e2e-automation-framework): Cypress + JavaScript: Page Objects, fixtures, custom commands, UI + API specs, mochawesome and Allure reports.
 
-Read them in this order: they show the range: a proven automation framework, an enterprise knowledge system, multi-agent AI engineering, a full enterprise QA blueprint, and native mobile automation.
+Read in this order, they cover five areas: a proven automation framework, a full enterprise QA blueprint, native mobile automation, BDD API testing, and Cypress E2E automation.
 
 ## AI Quality Engineering
 
-Beyond traditional test automation, I build evaluation harnesses and generate tests with local models. No cloud model, no test run leaves your machine:
+Beyond traditional test automation, this work covers AI systems, evaluation harnesses, and test generation with local models. Everything runs locally: no cloud model is called, and no test run leaves your machine:
 
-- [llm-eval-harness](https://github.com/acbharath14/llm-eval-harness): 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. Answers "which model should we ship?" with evidence.
-- [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval): compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then pipes winners through an LLM for structured business summaries.
+- [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, React chat UI, MCP server, retrieval evals. No API keys needed.
+- [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
+- [llm-eval-harness](https://github.com/acbharath14/llm-eval-harness): 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. It answers which model to ship, with evidence.
+- [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval): compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then sends the winning extraction through an LLM for structured business summaries.
 - [ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo): local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
 - [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo): typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities. Stdlib-only Python.
 
