@@ -6,7 +6,7 @@ QA Automation Architect with 15+ years in enterprise quality engineering across 
 If you review only five repositories, review these:
 
 1. [selenium-e2e-automation-framework](https://github.com/acbharath14/selenium-e2e-automation-framework): Selenium WebDriver 4 + Java 17 + JUnit 5 + Allure: 15 UI journeys on Swag Labs, 5 REST Assured API tests, with all 20 passing on Jenkins.
-2. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security, with 419 tests passing in CI.
+2. [enterprise-qa-automation-blueprint](https://github.com/acbharath14/enterprise-qa-automation-blueprint): Enterprise Playwright framework: BDD, DB validation, Pact contract tests, k6 performance, ZAP security, with 419 tests passing in CI.
 3. [appium-e2e-automation-framework](https://github.com/acbharath14/appium-e2e-automation-framework): Appium + Java 17 + JUnit 5: 15 native mobile tests on the Swag Labs app, Android emulator + iOS simulator, Allure reports, with all 15 Android tests passing.
 4. [karate-bdd-api-testing](https://github.com/acbharath14/karate-bdd-api-testing): Karate + Java 17 + JUnit 5: BDD API tests against the ReqRes API, 11 scenarios across 4 feature files.
 5. [cypress-e2e-automation-framework](https://github.com/acbharath14/cypress-e2e-automation-framework): Cypress + JavaScript: Page Objects, fixtures, custom commands, UI + API specs, mochawesome and Allure reports.
