@@ -17,12 +17,12 @@ Read in this order, they cover five areas: a proven automation framework, a full
 
 Beyond traditional test automation, this work covers AI systems, evaluation harnesses, and test generation with local models. Everything runs locally: no cloud model is called, and no test run leaves your machine:
 
-- [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, React chat UI, MCP server, retrieval evals. No API keys needed.
-- [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): a multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
+- [sidekick-rag-assistant](https://github.com/acbharath14/sidekick-rag-assistant): Enterprise RAG assistant (LangChain + FAISS): pluggable document sources, cited answers, React chat UI, MCP server, retrieval evals. No API keys needed.
+- [crewai-scrum-team](https://github.com/acbharath14/crewai-scrum-team): A multi-agent Scrum team (PO/BA/SM/Developer/SDET) on CrewAI + local Ollama that plans, builds, and validates software.
 - [llm-eval-harness](https://github.com/acbharath14/llm-eval-harness): 50 golden Q/A items, heuristic + LLM judges, drift detection (PSI), model comparison dashboard. It answers which model to ship, with evidence.
-- [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval): compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then sends the winning extraction through an LLM for structured business summaries.
-- [ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo): local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
-- [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo): typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities.
+- [doc-extract-eval](https://github.com/acbharath14/doc-extract-eval): Compares 5 PDF extraction engines (pypdf, pdfplumber, PyMuPDF, Tesseract, Mistral OCR) with ground-truth F1 scoring, then sends the winning extraction through an LLM for structured business summaries.
+- [ollama-junit-demo](https://github.com/acbharath14/ollama-junit-demo): Local Ollama drafts JUnit 5 unit tests for a small Java app. Drafts live in ai-generated/ until a human reviews and promotes them. Coverage via JaCoCo, execution reports via Allure.
+- [ollama-jev-decision-demo](https://github.com/acbharath14/ollama-jev-decision-demo): Typed decision models via Ollama (/v1/systemone): choice, yes/no, and score questions with calibrated probabilities.
 
 ## Skills To Repository Map
 
